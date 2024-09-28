@@ -1,0 +1,100 @@
+    5  sudo reboot
+    6  glxinfo | grep "OpenGL versison"
+    7  sudo apt install mesa-utils
+    8  glxinfo | grep "OpenGL version"
+    9  sudo apt upgrade
+   10  sudo apt update
+   11  sudo apt dist-upgrade 
+   12  sudo reboot 
+   13  sudo su 
+   14  sudo so
+   15  sudo su
+   16  sudo apt-get install -y crul
+   17  sudo apt-get install -y curl
+   18  cat Unix_commands.md
+   19  curl -o Unix_commands.md https://gist.githubusercontent.com/phaneendra/3804036/raw/f124b9f7703114d6be22f55e775cd2d015a45a91/UnixCommands.md
+   20  cat Unix_commands.md
+   21  ls - > home-comtents.txt
+   22  ls / > /dev/null
+   23  cat /fop > /tmp/foo.txt
+   24  cat /foo > /tmp/foo.txt
+   25  cat /foo 2
+   26  cat /foo 2> /tmp/foo-err.txt
+   27  cat /foo 2> /dev/null 
+   28  cat
+   29  cat > languages.txt
+   30  cat
+   31  ls - > languages.txt 
+   32  cat /foo 2> languages.txt 
+   33  cat languages.txt 
+   34  wc languages.txt
+   35  sort languages.txt
+   36  sort 
+   37  sort languages
+   38  wc < languages.txt
+   39  cat < languages.txt
+   40  cat < /foo languages.txt
+   41  cat /foo  languages.txt
+   42  wget https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv
+   43  head Prenoms.csv 
+   44  grep "f;french" < Prenoms.csv | wc -l
+   45  swedish Prenoms.csv > Swedish.csv
+   46  grep swedish Prenoms.csv > Swedish.csv
+   47  grep danish Prenoms.csv > danis
+   48  grep norwegian Prenoms.csv > Norwegian.csv
+   49  cat Swedish.csv danish.csv Norwegian.csv | sort -u
+   50  cat Swedish.csv danish.csv Norwegian.csv | sort 
+   51  grep Swedish.csv danish.csv Norwegian.csv > Scandinavian.csv
+   52  cat Scandinavian.csv | sort -u
+   53  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+   54  clear
+   55  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+   56  cat wilders.csv 
+   57  q
+   58  clear
+   59  cat wilders.csv 
+   60  clear
+   61  grep "php;2019;french" < wilders.csv | wc -l 
+   62  cat wilders.csv 
+   63  clear
+   64  grep "france;2019;php" wilders.csv | wc -l
+   65  grep "france;php" wilders.csv | wc -l
+   66  grep "php" wilders.csv | wc -l
+   67  grep php wilders.csv > php1.csv
+   68  cat php1.csv 
+   69  cat php1.csv | sort -u
+   70  cat php1.csv | sort 
+   71  cat
+   72  cat wilders.csv 
+   73  grep "france:2019:php" wilders.csv > php1.csv
+   74  grep "france:2019:php" wilders.csv | wc -u
+   75  grep "france:2019:php" wilders.csv | wc -l
+   76  cat wilders.csv 
+   77  clear
+   78  grep "france,2019,php" wilders.csv | wc -l
+   79  grep "f;french" < Prenoms.csv | wc -l
+   80  grep "france,2019,php" < wilders.csv | wc -l
+   81  grep "france" < wilders.csv | wc -l
+   82  grep "France" < wilders.csv | wc -l
+   83  grep "France,2019,PHP" < wilders.csv | wc -l
+   84  grep France 2019 PHP  wilders.csv > php1.csv
+   85  grep France,2019,PHP  wilders.csv > php1.csv
+   86  grep France,2019,PHP  wilders.csv > php_france_2019.csv
+   87  grep "France,Biarritz,JavaScript" < wilders.csv | wc -l
+   88  grep "Biarritz,JavaScript < wilders.csv | wc -l
+   89* grep ",JavaScript" < wilders.csv | wc -l
+   90  grep "Biarritz,JavaScript" < wilders.csv | wc -l
+   91  grep "France,Biarritz,JavaScript" < wilders.csv | wc -l
+   92  grep "JavaScript" < wilders.csv | wc -l
+   93  grep JavaScript wilders.csv > JC1.csc
+   94  grep "Biarritz" < JC1.csc | wc -l
+   95  grep "Biarritz,Toulouse" < JC1.csc | wc -l
+   96  grep Biarritz Toulouse  > JCBT.csv
+   97  grep Biarritz Toulouse JC1.csc > JCBT.csv
+   98  grep Toulouse JC1.csc > JCBT.csv
+   99  grep Toulouse JC1.csc > JCT.csv
+  100  grep JCBT.csv JCT.csv> javascript_biarritz_toulouse.csv
+  101  grep JavaScript JCBT.csv JCT.csv> javascript_biarritz_toulouse.csv
+  102  grep Biarritz JC1.csc > JCB.csv
+  103  grep JavaScript JCB.csv JCT.csv> javascript_biarritz_toulouse.csv
+  104  history | tail -n 100 > history.txt
